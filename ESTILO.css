@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+.navegacao{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegacao ol{ 
+    list-style-type: none;
+    display: flex;
+}
+.navegacao ol li{
+    padding-left: 50px;
+}
+.navegacao ol li:hover{
+    color: #ffd800;
+    cursor: pointer;
+}
+.banner{
+    background-image: url(images.jpg);
+    height: 70vh;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    background-color: black;
+    color: white;
+    height: 15vh;
+}
+.container .containertexto h1{
+    margin: 0;
+    font-size: 45px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.unidades{
+    background-color: #750575;
+    height: 100VH;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.unidades img{
+    width: 40%;
+    height: 90%;
+}
+.unidadetexto ol{
+    list-style-type: none;
+    
+}
+.unidadetexto ol li{
+    font-size: 20px;
+}
+button{
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.unidadetexto{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.historia{
+    text-align: center;
+    height: 50vh;
+}
+.historia p{
+    margin-left:30%;
+    margin-right:30%;
+    text-align: justify;
+    
+}
+.formulario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}    
+.formulario input{
+    border: none;
+    outline: none;
+    border-bottom: black 1px solid;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    
+}
